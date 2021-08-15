@@ -1,0 +1,147 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData minimist
+20 silly mapToRegistry name minimist
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/minimist
+24 silly fetchNamedPackageData web3.storage
+25 silly mapToRegistry name web3.storage
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/web3.storage
+29 verbose request uri https://registry.npmjs.org/minimist
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 3:58:48 PM
+32 verbose request id 97a202c5ca859a88
+33 verbose etag W/"61b9a6f90e91fca202f0f1eb29376d2d"
+34 verbose lastModified Thu, 12 Aug 2021 06:46:05 GMT
+35 http request GET https://registry.npmjs.org/minimist
+36 verbose request uri https://registry.npmjs.org/web3.storage
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 3:58:48 PM
+39 verbose etag W/"f0fcc3dfa4733bce511175720483747b"
+40 verbose lastModified Wed, 11 Aug 2021 10:53:11 GMT
+41 http request GET https://registry.npmjs.org/web3.storage
+42 http 304 https://registry.npmjs.org/minimist
+43 verbose headers { date: 'Sun, 15 Aug 2021 15:58:42 GMT',
+43 verbose headers   connection: 'keep-alive',
+43 verbose headers   'cf-ray': '67f3a03ce8d12910-ORD',
+43 verbose headers   age: '7112',
+43 verbose headers   'cache-control': 'public, max-age=300',
+43 verbose headers   etag: '"61b9a6f90e91fca202f0f1eb29376d2d"',
+43 verbose headers   'last-modified': 'Thu, 12 Aug 2021 06:46:05 GMT',
+43 verbose headers   vary: 'Accept-Encoding',
+43 verbose headers   'cf-cache-status': 'HIT',
+43 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+43 verbose headers   'x-amz-replication-status': 'COMPLETED',
+43 verbose headers   server: 'cloudflare' }
+44 silly get cb [ 304,
+44 silly get   { date: 'Sun, 15 Aug 2021 15:58:42 GMT',
+44 silly get     connection: 'keep-alive',
+44 silly get     'cf-ray': '67f3a03ce8d12910-ORD',
+44 silly get     age: '7112',
+44 silly get     'cache-control': 'public, max-age=300',
+44 silly get     etag: '"61b9a6f90e91fca202f0f1eb29376d2d"',
+44 silly get     'last-modified': 'Thu, 12 Aug 2021 06:46:05 GMT',
+44 silly get     vary: 'Accept-Encoding',
+44 silly get     'cf-cache-status': 'HIT',
+44 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+44 silly get     'x-amz-replication-status': 'COMPLETED',
+44 silly get     server: 'cloudflare' } ]
+45 verbose etag https://registry.npmjs.org/minimist from cache
+46 verbose get saving minimist to /root/.npm/registry.npmjs.org/minimist/.cache.json
+47 http 304 https://registry.npmjs.org/web3.storage
+48 verbose headers { date: 'Sun, 15 Aug 2021 15:58:42 GMT',
+48 verbose headers   connection: 'keep-alive',
+48 verbose headers   'cf-ray': '67f3a03ce893c564-ORD',
+48 verbose headers   age: '297',
+48 verbose headers   'cache-control': 'public, max-age=300',
+48 verbose headers   etag: '"f0fcc3dfa4733bce511175720483747b"',
+48 verbose headers   'last-modified': 'Wed, 11 Aug 2021 10:53:11 GMT',
+48 verbose headers   vary: 'Accept-Encoding',
+48 verbose headers   'cf-cache-status': 'HIT',
+48 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+48 verbose headers   'x-amz-replication-status': 'COMPLETED',
+48 verbose headers   server: 'cloudflare' }
+49 silly get cb [ 304,
+49 silly get   { date: 'Sun, 15 Aug 2021 15:58:42 GMT',
+49 silly get     connection: 'keep-alive',
+49 silly get     'cf-ray': '67f3a03ce893c564-ORD',
+49 silly get     age: '297',
+49 silly get     'cache-control': 'public, max-age=300',
+49 silly get     etag: '"f0fcc3dfa4733bce511175720483747b"',
+49 silly get     'last-modified': 'Wed, 11 Aug 2021 10:53:11 GMT',
+49 silly get     vary: 'Accept-Encoding',
+49 silly get     'cf-cache-status': 'HIT',
+49 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+49 silly get     'x-amz-replication-status': 'COMPLETED',
+49 silly get     server: 'cloudflare' } ]
+50 verbose etag https://registry.npmjs.org/web3.storage from cache
+51 verbose get saving web3.storage to /root/.npm/registry.npmjs.org/web3.storage/.cache.json
+52 silly resolveWithNewModule minimist@1.2.5 checking installable status
+53 silly cache add args [ 'minimist@^1.2.5', null ]
+54 verbose cache add spec minimist@^1.2.5
+55 silly cache add parsed spec Result {
+55 silly cache add   raw: 'minimist@^1.2.5',
+55 silly cache add   scope: null,
+55 silly cache add   name: 'minimist',
+55 silly cache add   rawSpec: '^1.2.5',
+55 silly cache add   spec: '>=1.2.5 <2.0.0',
+55 silly cache add   type: 'range' }
+56 silly addNamed minimist@>=1.2.5 <2.0.0
+57 verbose addNamed ">=1.2.5 <2.0.0" is a valid semver range for minimist
+58 silly addNameRange { name: 'minimist', range: '>=1.2.5 <2.0.0', hasData: false }
+59 silly mapToRegistry name minimist
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry uri https://registry.npmjs.org/minimist
+63 verbose addNameRange registry:https://registry.npmjs.org/minimist not in flight; fetching
+64 verbose stack Error: Missing required argument #1
+64 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+64 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+64 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+64 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+64 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+64 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+64 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+64 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+64 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+64 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+65 verbose cwd /cFS/web3-storage-quickstart
+66 error Linux 5.10.16.3-microsoft-standard-WSL2
+67 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+68 error node v8.10.0
+69 error npm  v3.5.2
+70 error code EMISSINGARG
+71 error typeerror Error: Missing required argument #1
+71 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+71 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+71 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+71 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+71 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+71 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+71 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+71 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+71 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+71 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+72 error typeerror This is an error with npm itself. Please report this error at:
+72 error typeerror     <http://github.com/npm/npm/issues>
+73 verbose exit [ 1, true ]
